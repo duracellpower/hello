@@ -2,6 +2,9 @@ package firstProject;
 
 public class HelloWorld {
     public static void main(String args[]) {
-        System.out.println("Hello World");
+        Person ilona = new Person();
+        ilona.setAddress("Diesbachstrasse 17");
+        ilona.setFirstName("Ilona");
+        ilona.setLastName("Siegrist");
     }
 }
